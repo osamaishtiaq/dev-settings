@@ -17,3 +17,5 @@
       ```
 11. Change your terminal font to FuraMono Nerd Font Mono.
 12. That's it!
+
+Note: If after this your shell is unable to find packages like npm etc. Add following to the start of your .zshrc `source /Users/<username>/.profile`
