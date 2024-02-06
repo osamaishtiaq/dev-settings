@@ -24,7 +24,9 @@
     "editor.fontLigatures": false,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "modificationsIfAvailable",
-    "diffEditor.codeLens": true
+    "diffEditor.codeLens": true,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false
 }
 ```
 
