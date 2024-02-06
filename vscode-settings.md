@@ -31,11 +31,11 @@
 ```
 
 ### keybindings.json
-```json
 // Place your key bindings in this file to override the defaultsauto[]
+```json
 [
     {
-        "key": "alt+`",
+        "key": "cmd+`",
         "command": "workbench.action.terminal.toggleTerminal",
         "when": "terminal.active"
     },
