@@ -1,3 +1,5 @@
+### settings.json 
+```json
 {
     "workbench.colorTheme": "Default Light Modern",
     "editor.fontSize": 14,
@@ -24,3 +26,21 @@
     "editor.formatOnSaveMode": "modificationsIfAvailable",
     "diffEditor.codeLens": true
 }
+```
+
+### keybindings.json
+```json
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+`",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    }
+]
+```
